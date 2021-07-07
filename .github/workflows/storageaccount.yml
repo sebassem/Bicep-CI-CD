@@ -40,6 +40,6 @@ jobs:
           az deployment group create \
           --name storageaccountdeployment \
           --resource-group Bicep-CICD-rg-001 \
-          --template-file ./main.bicep
+          --template-file main.bicep
 
 
